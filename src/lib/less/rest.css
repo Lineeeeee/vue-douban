@@ -1,0 +1,9 @@
+.clearFix::before,
+.clearFix::after {
+  content: "";
+  display: block;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+  clear: both;
+}
